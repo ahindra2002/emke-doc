@@ -158,8 +158,6 @@ USE_TZ = True
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-AWS_ACCESS_KEY_ID='AKIAVUD24H2B7GK6DBO2'
-AWS_SECRET_ACCESS_KEY='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'
 AWS_STORAGE_BUCKET_NAME='mybucket-emke'
 DEFAULT_FILE_STORAGE='storages.backends.s3boto3.S3Boto3Storage'
 STATICFILES_STORAGE='storages.backends.s3boto3.S3Boto3Storage'
