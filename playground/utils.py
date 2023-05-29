@@ -14,8 +14,7 @@ from django.core.files.uploadedfile import UploadedFile
 
 
 session = boto3.Session(
-    aws_access_key_id='AKIAVUD24H2B7GK6DBO2',
-    aws_secret_access_key='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'
+   
 )
 s3 = session.client('s3')
 def save_img2s3(img,image_name):
